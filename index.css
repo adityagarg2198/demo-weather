@@ -1,0 +1,39 @@
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  margin: 100px auto 0;
+}
+
+.input-wrapper h3 {
+  font-size: 20px;
+  color: mediumseagreen;
+}
+
+#weather-info {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+  background: linear-gradient(
+    185deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(214, 243, 246, 1) 20%,
+    rgba(172, 237, 235, 1) 50%,
+    rgba(93, 158, 221, 1) 80%,
+    rgba(26, 145, 207, 1) 100%
+  );
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  font-size: 22px;
+  color: white;
+}
